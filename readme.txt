@@ -105,7 +105,7 @@ This plugin is also a best combination when use with N-Media other form plugins 
 1. Admin screen for plugin option page
 2. Signup form meta fields in plugin option
 3. Front end form
-5. Profile fileds in admin
+4. Profile fileds in admin
 
 
 == Changelog ==
