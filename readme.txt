@@ -24,7 +24,7 @@ This plugin is also a best combination when use with N-Media other form plugins 
 * Then setup form fields and other settins from `Admin -> WP Registration` described below section
 * Custom login page can also set with shortcode `[nm-wp-login]`
 
-<h3>Plugin Settins</h3>
+<h3>Plugin Settings</h3>
 = Basic Settings Tab =
 * Signup form title (`it will render as Registration form title if requried`);
 * Signup form description  (`it will render description under title if required`)
@@ -48,7 +48,7 @@ This plugin is also a best combination when use with N-Media other form plugins 
 
 <h3>Features</h3>
 <ul>
-	<li>Simple based signup form</li>
+	<li>Simple Ajax based signup form</li>
 	<li>Validation control with personalized message for each input</li>
 	<li>Email template for new registration</li>
 	<li>Fully responsive</li>
@@ -78,7 +78,7 @@ This plugin is also a best combination when use with N-Media other form plugins 
 	<li>My Posts Area<li>
 	<li>Redirects based on user roles</li>
 	<li>Change password form</li>
-	<li>20 Read to login Nice templates<li>
+	<li>20 Ready to login Nice templates<li>
 	<li>Edit profile meta front end</li>
 	<li>Access to Support Forum</li>
 </ul>
