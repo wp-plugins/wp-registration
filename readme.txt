@@ -19,12 +19,15 @@ This plugin is also a best combination when use with N-Media other form plugins 
 [File sharing plugin](http://najeebmedia.com/n-media-file-sharing-with-ultimate-security/)
 
 
-<h3>How to use</h3>
+= How to use =
 * Just create a page and place this shortcode: `[nm-wp-registration]`
 * Then setup form fields and other settins from `Admin -> WP Registration` described below section
 * Custom login page can also set with shortcode `[nm-wp-login]`
 
-<h3>Plugin Settings</h3>
+= How it works =
+[vimeo http://vimeo.com/112390753]
+
+== Plugin Settings ==
 = Basic Settings Tab =
 * Signup form title (`it will render as Registration form title if requried`);
 * Signup form description  (`it will render description under title if required`)
