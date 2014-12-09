@@ -455,7 +455,19 @@ function render_existing_form_meta($product_meta, $types) {
 			echo '<li data-inputtype="' . $type . '"><div class="postbox">';
 			echo '<h3><span class="top-heading-text">' . $meta ['title'] . ' (' . $type . ')</span>';
 			echo '<span class="top-heading-icons ui-icon ui-icon-carat-2-n-s"></span>';
-			echo '<span class="top-heading-icons ui-icon ui-icon-trash"></span>';
+			
+			/* disabling delet action when default fields are renderd
+			* 1. wp_registration_login
+			* 2. wp_registration_email
+			* 3. wp_registration_first_name
+			* 4. wp_registration_last_name
+			*/
+			if($meta['data_name'] != 'wp_registration_login'
+			&& $meta['data_name'] != 'wp_registration_email'
+			&& $meta['data_name'] != 'wp_registration_first_name'
+			&& $meta['data_name'] != 'wp_registration_last_name')
+				echo '<span class="top-heading-icons ui-icon ui-icon-trash"></span>';
+				
 			echo '<span style="clear:both;display:block"></span></h3>';
 				
 			echo render_input_settings ( $types[$type] -> settings, $meta );
