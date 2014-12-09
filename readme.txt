@@ -4,7 +4,7 @@ Donate link: http://www.najeebmedia.com/donate/
 Tags: registration form, simple registration, drag drop fields, front end registration, wp registration, signup form, wp signup form, ajax wp form
 Requires at least: 3.5
 Tested up to: 4.0
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -113,11 +113,14 @@ This plugin is also a best combination when use with N-Media other form plugins 
 
 == Changelog ==
 
-= 1.0 =
-* It is first version, and working perfectly
+= 1.2 =
+* When user is logged then Registration page will not render the signup form but say 'Hi username'
+* When user is logged then Registration page will not render the login form but say 'Hi username'
 = 1.1 =
 * Email subject is changed
 * Email is being sent with admin email and Site title as email header
+= 1.0 =
+* It is first version, and working perfectly
 
 == Upgrade Notice ==
 * Make sure you provide data name field for each input field
