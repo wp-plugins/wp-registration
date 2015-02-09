@@ -4,7 +4,7 @@ Donate link: http://www.najeebmedia.com/donate/
 Tags: registration form, simple registration, drag drop fields, front end registration, wp registration, signup form, wp signup form, ajax wp form
 Requires at least: 3.5
 Tested up to: 4.0
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -81,6 +81,9 @@ Plugin Settings
 
 
 == Changelog ==
+= 1.4 =
+* Page access restriction for members only
+* Page access restriction by Role (PRO Feature)
 = 1.3 =
 * text localized for translation in login form
 * some changes in settings
