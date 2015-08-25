@@ -53,7 +53,10 @@ Plugin Settings
 * Change password form
 * Member Direclty
 * Login with Facebook
+* Auto Login
 * Access to Support Forum
+* Page restricted by Roles
+* Singup with defined Role
 [Visite for more detail](http://najeebmedia.com/wordpress-plugin/wp-user-registration-form/)
 
 
